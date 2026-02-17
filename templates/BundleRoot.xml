@@ -1,0 +1,4 @@
+<Template>
+  <Metadata app="osu-test-app" />
+  <Text text="Jo OSU Test Bundle" color="@welcome-text-color" />
+</Template>

@@ -1,0 +1,11 @@
+Scenario
+  # Start the osu-test-app from osu-test-bundle
+  Message {"command":"app", "app":"osu-test-app", "bundle":"osu-test-bundle"}
+  Message {"command":"appState", "requested-state":"pre-active"}
+  Message {"command":"appState", "requested-state":"active"}
+
+  # Show the BundleRoot template (root layer)
+  Message {"command":"sceneSet", "template":"BundleRoot", "layer":"root"}
+
+  # Optional: capture a screenshot so we can see the result
+  Screenshot OSU test bundle root is visible
