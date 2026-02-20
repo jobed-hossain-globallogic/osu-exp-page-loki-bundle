@@ -22,7 +22,7 @@
     </Row>
     <Row padding-left="40" padding-right="40" padding-bottom="40">
       <Text
-        text="(Press Home to exit)"
+        text="(Press back to exit)"
         size="18"
         text-align="center"
         max-lines="1"
