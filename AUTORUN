@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "command": "sceneSet",
+        "template": "BundleRoot",
+        "layer": "root"
+    }
+]
