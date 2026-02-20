@@ -4,18 +4,34 @@
   </OnEnter>
 
   <Event button="back">
-    <ExitScene />
+    <CloseActiveApp />
   </Event>
 
-  <Container width="100%" height="100%" color="black">
-    <Row width="100%" height="100%" align="center" valign="center">
+  <Container width="100%" height="100%">
+    <Row grow="1">
+      <Rectangle width="100%" height="100%" opacity="0" />
+    </Row>
+    <Row padding-left="40" padding-right="40" padding-bottom="20">
       <Text
         text="This bundle took almost no time at all. Trust me."
         size="32"
-        color="white"
         text-align="center"
         max-lines="3"
+        grow="1"
       />
     </Row>
+    <Row padding-left="40" padding-right="40" padding-bottom="40">
+      <Text
+        text="(Press Home to exit)"
+        size="18"
+        text-align="center"
+        max-lines="1"
+        grow="1"
+      />
+    </Row>
+    <Row grow="1">
+      <Rectangle width="100%" height="100%" opacity="0" />
+    </Row>
+
   </Container>
 </Template>
