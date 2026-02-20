@@ -1,4 +1,21 @@
 <Template>
-  <Metadata app="osu-test-app" />
-  <Text text="Jo OSU Test Bundle" color="@welcome-text-color" />
+  <OnEnter>
+    <Log log-level="debug" text="OSU_TEST: BundleRoot OnEnter" />
+  </OnEnter>
+
+  <Event button="back">
+    <ExitScene />
+  </Event>
+
+  <Container width="100%" height="100%" color="black">
+    <Row width="100%" height="100%" align="center" valign="center">
+      <Text
+        text="This bundle took almost no time at all. Trust me."
+        size="32"
+        color="white"
+        text-align="center"
+        max-lines="3"
+      />
+    </Row>
+  </Container>
 </Template>
